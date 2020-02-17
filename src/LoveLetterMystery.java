@@ -1,31 +1,31 @@
 import java.util.Scanner;
 
 public class LoveLetterMystery {
-    public static boolean isPalindrome(String line){
-        int mid=line.length()/2;
-        if(line.length()%2==0){
-            StringBuilder lastHalf =new StringBuilder();
-            lastHalf.append(line.substring(mid,line.length()));
-            lastHalf.reverse();
-            if(line.substring(0,mid).equals(lastHalf.toString())){
-                return true;
+        public static boolean isPalindrome(String line){
+            int mid=line.length()/2;
+            if(line.length()%2==0){
+                StringBuilder lastHalf =new StringBuilder();
+                lastHalf.append(line.substring(mid,line.length()));
+                lastHalf.reverse();
+                if(line.substring(0,mid).equals(lastHalf.toString())){
+                    return true;
+                }
+                else{
+                    return false;
+                }
             }
             else{
-                return false;
+                StringBuilder lastHalf =new StringBuilder();
+                lastHalf.append(line.substring(mid+1,line.length()));
+                lastHalf.reverse();
+                if(line.substring(0,mid).equals(lastHalf.toString())){
+                    return true;
+                }
+                else{
+                    return false;
+                }
             }
         }
-        else{
-            StringBuilder lastHalf =new StringBuilder();
-            lastHalf.append(line.substring(mid+1,line.length()));
-            lastHalf.reverse();
-            if(line.substring(0,mid).equals(lastHalf.toString())){
-                return true;
-            }
-            else{
-                return false;
-            }
-        }
-    }
     public static void main(String[] args){
         int n;
         Scanner sc = new Scanner(System.in);
