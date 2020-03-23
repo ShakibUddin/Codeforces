@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1fb7b3-9f42-4d10-9b77-98a9bdb6ea5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoRabbits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Codeforces/LongestPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Codeforces/TwoRabbits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Knapsack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoveLetterMystery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoveLetterMystery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codeforces/META-INF/Codeforces.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +19,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Knapsack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,9 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/angryStudents.ky.kt" />
-        <option value="$PROJECT_DIR$/src/angryStudent.kt" />
-        <option value="$PROJECT_DIR$/src/WayTooLongWords.java" />
         <option value="$PROJECT_DIR$/src/input.java" />
         <option value="$PROJECT_DIR$/src/NextRound.java" />
         <option value="$PROJECT_DIR$/src/StringTask.java" />
@@ -85,6 +96,9 @@
         <option value="$PROJECT_DIR$/src/TwoRabbits.java" />
         <option value="$PROJECT_DIR$/src/LoveLetterMystery.java" />
         <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/YetAnotherWalkingRobot.java" />
+        <option value="$PROJECT_DIR$/src/ProductofThreeNumbers.java" />
+        <option value="$PROJECT_DIR$/src/Knapsack.java" />
       </list>
     </option>
   </component>
@@ -101,8 +115,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +131,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,9 +151,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
-    <configuration name="EqualizePricesAgain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EqualizePricesAgain" />
+  <component name="RunManager" selected="Application.Knapsack">
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Knapsack" />
       <module name="Codeforces" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,15 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoveLetterMystery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoveLetterMystery" />
-      <module name="Codeforces" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MotaracksBirthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MotaracksBirthday" />
+    <configuration name="ProductofThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductofThreeNumbers" />
       <module name="Codeforces" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,13 +180,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YetAnotherWalkingRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YetAnotherWalkingRobot" />
+      <module name="Codeforces" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.ProductofThreeNumbers" />
+        <item itemvalue="Application.YetAnotherWalkingRobot" />
         <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.TwoRabbits" />
-        <item itemvalue="Application.EqualizePricesAgain" />
-        <item itemvalue="Application.MotaracksBirthday" />
-        <item itemvalue="Application.LoveLetterMystery" />
       </list>
     </recent_temporary>
   </component>
@@ -250,13 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581688525539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2/18/2020">
+      <created>1581966062152</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581966062152</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -265,7 +287,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39443535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33551556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,18 +344,14 @@
     <MESSAGE value="2/7/2020" />
     <MESSAGE value="2/11/2020" />
     <MESSAGE value="2/14/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/14/2020" />
+    <MESSAGE value="2/18/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/18/2020" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Hello2020_one.kt" />
-    <entry file="file://$PROJECT_DIR$/src/input.java" />
-    <entry file="file://$PROJECT_DIR$/src/TheatreSquare.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WayTooLongWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -645,6 +663,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YetAnotherWalkingRobot.java" />
+    <entry file="file://$PROJECT_DIR$/src/ProductofThreeNumbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/Knapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
